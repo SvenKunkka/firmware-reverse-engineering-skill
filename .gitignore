@@ -1,0 +1,18 @@
+# Never commit analysis inputs or proprietary extracted artifacts.
+*.bin
+*.hex
+*.elf
+*.axf
+*.uf2
+*.map
+*.ghidra
+*.gpr
+
+reverse_engineering/
+decompiled/
+disassembly/
+tool_logs/
+
+__pycache__/
+*.pyc
+.DS_Store

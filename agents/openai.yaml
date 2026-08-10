@@ -1,0 +1,4 @@
+interface:
+  display_name: "Firmware Reverse Engineer"
+  short_description: "Analyze MCU firmware for clean-room reimplementation"
+  default_prompt: "Use $firmware-reverse-engineer to analyze this authorized MCU firmware binary and build an evidence-backed reimplementation plan."
