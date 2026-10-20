@@ -1,3 +1,7 @@
+<!-- SVENKUNKKA-README-NAV:BEGIN -->
+[中文项目说明](#project-overview-zh) · [English overview](#project-overview-en) · [维护者 X / Maintainer on X](https://x.com/Svenu1s5)
+<!-- SVENKUNKKA-README-NAV:END -->
+
 # Firmware Reverse Engineer Skill
 
 An open Codex Skill for evidence-backed analysis of legally obtained MCU firmware and clean-room, behaviorally equivalent reimplementation.
@@ -104,3 +108,30 @@ The Skill can use whatever is legitimately available in the environment, includi
 ## License
 
 MIT. The license covers this Skill and its helper script, not any third-party firmware analyzed with it.
+
+
+---
+
+<!-- SVENKUNKKA-PROJECT-INFO:BEGIN -->
+
+<a id="project-overview-zh"></a>
+## 中文项目说明
+
+面向合法取得 MCU 固件的 Codex Skill，从二进制初筛、内存映射、外设和状态机分析推进到协议理解、定向验证与洁净室重实现，明确区分事实、推断和未知。
+
+**使用入口：** 将仓库安装为 `firmware-reverse-engineer` 技能，提供固件与准确 MCU 型号后调用；也可独立运行 `python3 scripts/triage_firmware.py`，参数见 README。
+
+**范围说明：** 不承诺恢复原始源码、符号或注释；不包含绕过读保护、安全启动、调试锁和认证的流程，分析与发布范围须符合授权。
+
+<a id="project-overview-en"></a>
+## English project overview
+
+A Codex Skill for legally obtained MCU firmware, progressing from binary triage, memory maps, peripheral and state-machine analysis to protocol understanding, targeted validation and clean-room reimplementation, distinguishing facts, inferences and unknowns.
+
+**Getting started:** Install the repository as the `firmware-reverse-engineer` skill and provide firmware plus the exact MCU part number. The `python3 scripts/triage_firmware.py` utility also runs independently; see the README for arguments.
+
+**Scope:** It does not promise original source, symbol or comment recovery. It excludes procedures for bypassing readout protection, secure boot, debug locks and authentication; analysis and publication must remain within authorization.
+
+**仓库维护者 / Repository maintainer:** [SvenKunkka](https://github.com/SvenKunkka) · [X / Twitter](https://x.com/Svenu1s5)
+
+<!-- SVENKUNKKA-PROJECT-INFO:END -->
