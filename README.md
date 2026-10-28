@@ -1,5 +1,5 @@
 <!-- SVENKUNKKA-README-NAV:BEGIN -->
-[中文项目说明](#project-overview-zh) · [English overview](#project-overview-en) · [维护者 X / Maintainer on X](https://x.com/Svenu1s5)
+[English overview](#project-overview-en) · [中文项目说明](#project-overview-zh) · [Maintainer on X / 维护者 X](https://x.com/Svenu1s5)
 <!-- SVENKUNKKA-README-NAV:END -->
 
 # Firmware Reverse Engineer Skill
